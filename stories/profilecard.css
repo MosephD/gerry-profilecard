@@ -1,0 +1,103 @@
+.profile_card {
+  padding-top: 0.1rem;
+  background-color: white;
+  width: 21.8rem;
+  height: 24.35rem;
+  background-image: url("../assets/bg-pattern-card.svg");
+  background-repeat: no-repeat;
+  border-radius: 0.8rem;
+  margin: 0 8.5% 0 8.5%;
+  box-shadow: 0px 6px 20px rgb(0 0 0 / 20%);
+}
+
+.profile_card-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25%;
+  font-family: "Kumbh Sans";
+}
+
+.profile_image {
+  text-align: center;
+}
+
+.profile_image img {
+  border: solid 0.39rem white;
+  border-radius: 100%;
+  width: 7.35rem;
+  height: 7.35rem;
+}
+
+.profile_card-user {
+  display: flex;
+  justify-content: center;
+  margin: 5% 5% 3% 5%;
+}
+
+h3.location {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 6%;
+}
+
+.profile_card-stats {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border-top: solid 0.01rem hsl(0, 0%, 90%);
+  padding: 6.3% 7.85% 3% 7.85%;
+}
+
+.profile_card-stats img {
+  width: 46px;
+  height: 46px;
+  filter: brightness(0.2);
+}
+
+/*Font Styling///////////////////////////*/
+
+.profile_card-content h1 {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+}
+
+.profile_card-content h2,
+h3,
+h4 {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+
+.profile_card-content h2 {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+  font-size: 18px;
+  margin-left: 0.5rem;
+}
+
+.profile_card-content h3 {
+  font-size: 14px;
+}
+
+.profile_card-content h4 {
+  font-size: 12px;
+  margin-top: 0.35rem;
+}
+
+/*///////////////////////////////////////*/
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
